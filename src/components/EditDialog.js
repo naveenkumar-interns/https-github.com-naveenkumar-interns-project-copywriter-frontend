@@ -63,7 +63,7 @@ const EditDialog = ({ isOpen, onClose, sectionType, onGenerate }) => {
       case 'hero':
         return {
           ...baseConfig,
-          url: 'http://127.0.0.1:5000/hero',
+          url: 'https://project-copywriter-backend.onrender.com/hero',
           data: {
             company_name: formData.companyName,
             company_description: formData.companyDescription,
@@ -77,7 +77,7 @@ const EditDialog = ({ isOpen, onClose, sectionType, onGenerate }) => {
       case 'about':
         return {
           ...baseConfig,
-          url: 'http://127.0.0.1:5000/aboutus_tool',
+          url: 'https://project-copywriter-backend.onrender.com/aboutus_tool',
           data: {
             product_name: formData.productName,
             product_description: formData.productDescription,
@@ -90,7 +90,7 @@ const EditDialog = ({ isOpen, onClose, sectionType, onGenerate }) => {
       case 'features':
         return {
           ...baseConfig,
-          url: 'http://127.0.0.1:5000/features',
+          url: 'https://project-copywriter-backend.onrender.com/features',
           data: {
             company_name: formData.companyName,
             company_description: formData.companyDescription,
@@ -105,7 +105,7 @@ const EditDialog = ({ isOpen, onClose, sectionType, onGenerate }) => {
       case 'testimonials':
         return {
           ...baseConfig,
-          url: 'http://127.0.0.1:5000/testimonial',
+          url: 'https://project-copywriter-backend.onrender.com/testimonial',
           data: {
             product_name: formData.productName,
             product_description: formData.productDescription,
@@ -118,7 +118,7 @@ const EditDialog = ({ isOpen, onClose, sectionType, onGenerate }) => {
       case 'howItWorks':
         return {
           ...baseConfig,
-          url: 'http://127.0.0.1:5000/howitworks',
+          url: 'https://project-copywriter-backend.onrender.com/howitworks',
           data: {
             product_name: formData.productName,
             product_description: formData.productDescription,
